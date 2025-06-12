@@ -1,0 +1,6 @@
+1. PPG_Amplitude_acquire.py: acquire Lock-in data
+2. PPG_Amplitude_process.py: acquire cheek, forehead data
+3. PPG_Amplitude_merge.py: merge the data of cheek and forehead 
+4. powermeter_PPG.py: powermeter to PPG(has been denoised)
+5.1. PPG_referencePPG.py  or 5. Lockin_Powermeter_merge.py test plot.py   or   ECG_PPG.py((this is for ECG))  or ECG_referencePPG.py
+6. NpyDataprocess.py or NpyDataprocess_ECGref.py

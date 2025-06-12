@@ -1,0 +1,18 @@
+/__pycache__
+/vid
+
+# PNGs can be recreated using the SVGs 
+/assets/*.png
+
+# Large files best kept out of source control
+/data
+*.npy
+*.mat
+*.mp4
+*.avi
+*.pyc
+*.svg
+*.png
+*.pdf
+*.csv
+*.txt
