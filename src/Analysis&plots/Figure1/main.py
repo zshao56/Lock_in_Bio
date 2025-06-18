@@ -1,7 +1,7 @@
 # 依次运行三个Python文件
 import subprocess
 
-data_path = 'src/v4/Figure1/'
+data_path = 'src/Figure1/'
 
 python_files = [
     data_path+'lockin.py',

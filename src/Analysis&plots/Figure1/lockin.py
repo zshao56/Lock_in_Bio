@@ -54,4 +54,4 @@ plt.imshow(rgba)
 plt.axis('off')  # 隐藏坐标轴
 output_dir = data_path('Figure1/lockin')
 plt.savefig(os.path.join(output_dir, 'uw_lockin.svg'), bbox_inches='tight', pad_inches=0)
-plt.close()
+plt.show()

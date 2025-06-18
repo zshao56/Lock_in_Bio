@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from util import data_path
 
-PPG_path = data_path("Figure4/PPG_face.csv")
+PPG_path = data_path("Figure4/PPG/PPG_face.csv")
 df = pd.read_csv(PPG_path, header=None, names=["counts", "chin", "cheek", "forehead"], skiprows=1, sep="\t")
 
 PPG_chin = df["chin"]
@@ -17,5 +17,5 @@ plt.plot(PPG_forehead, label="Forehead")
 plt.xlabel("Time")
 plt.ylabel("PPG")
 plt.legend()
-plt.savefig(data_path("Figure4/PPG_face.svg"))
+plt.savefig(data_path("Figure4/PPG/PPG_face.svg"))
 plt.show()
