@@ -5,7 +5,7 @@ import os
 from util import data_path
 
 # Load the npy file
-path = data_path('Figure1/uwlogo.npy')
+path = data_path('Figure1/uwlogo_resized.npy')
 
 # Load the light source data
 light_source_path = data_path('Figure1/lights/light_5000K.csv')
